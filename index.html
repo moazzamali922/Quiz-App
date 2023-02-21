@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Styling Quiz App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Quiz ApP</h1>
+        <div class="quiz" id="quiz">
+            <form id="quiz-form">
+                <div class="question active">
+                    <h2>Question 1:</h2>
+                    <p>What is the CSS property used to set the background color of an element?</p>
+                    <label>
+                        <input type="radio" name="answer" value="A">
+                        A) background-color
+                    </label>
+                    <label>
+                        <input type="radio" name="answer" value="B">
+                        B) color
+                    </label>
+                    <label>
+                        <input type="radio" name="answer" value="C">
+                        C) border-color
+                    </label>
+                    <button class="submit-btn">Next</button>
+                </div>
+                <div class="question">
+                    <h2>Question 2:</h2>
+                    <p>What is the CSS property used to set the font size of an element?</p>
+                    <label>
+                        <input type="radio" name="answer" value="A">
+                        A) font-size
+                    </label>
+                    <label>
+                        <input type="radio" name="answer" value="B">
+                        B) font-style
+                    </label>
+                    <label>
+                        <input type="radio" name="answer" value="C">
+                        C) font-weight
+                    </label>
+                    <button class="submit-btn">Next</button>
+                </div>
+                <div class="question">
+                    <h2>Question 3:</h2>
+                    <p>What is the CSS property used to set the text color of an element?</p>
+                    <label>
+                        <input type="radio" name="answer" value="A">
+                        A) text-color
+                    </label>
+                    <label>
+                        <input type="radio" name="answer" value="B">
+                        B) color
+                    </label>
+                    <label>
+                        <input type="radio" name="answer" value="C">
+                        C) background-color
+                    </label>
+                    <button class="submit-btn">Next</button>
+                </div>
+                <div class="question">
+                    <h2>Question 4:</h2>
+                    <p>What is the CSS property used to set the padding of an element?</p>
+                    <label>
+                        <input type="radio" name="answer" value="A">
+                        A) padding
+                    </label>
+                    <label>
+                        <input type="radio" name="answer" value="B">
+                        B) margin
+                    </label>
+                    <label>
+                        <input type="radio" name="answer" value="C">
+                        C) border
+                    </label>
+                    <button class="submit-btn">Next</button>
+                </div>
+                <div class="question">
+                    <h2>Question 5:</h2>
+                    <p>What is the CSS property used to set the border of an element?</p>
+                    <label>
+                        <input type="radio" name="answer" value="A">				A) border
+                    </label>
+                    <label>
+                        <input type="radio" name="answer" value="B">
+                        B) border-color
+                    </label>
+                    <label>
+                        <input type="radio" name="answer" value="C">
+                        C) border-width
+                    </label>
+                    <button class="submit-btn">Submit</button>
+                </div>
+            </form>
+            <div class="results" id="results">
+                <h2>Quiz Results:</h2>
+                <p>You got <span id="score"></span> out of 5 questions correct!</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>    
